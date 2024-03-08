@@ -1,24 +1,19 @@
-.menuOne{
-    margin: 0px;
-    width: 10px;
-    padding: 10px;
-    background-color: aqua;
-}
-.MiMenu{
-    width: 200px;
-    padding: 325px;
-    margin: 10px 0px 0px 0px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-   
-    
-}
-tr{
-    width: 100%;
-    color: crimson;
-    font-size: 30px;
-    font-family: fantasy;
-    
-}
 
+.MiMenu{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    background-color: rgb(203, 234, 227);
+    height: 100px;
+}
+.opciones {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: fantasy;
+    font-size: 45px;
+    color: blue;
+    cursor: pointer;
+}
